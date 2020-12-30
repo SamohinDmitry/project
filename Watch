@@ -1,0 +1,8 @@
+//создаем модель, представляющую товар(часы). Поля объекта будут: id , имя, стоимость
+
+public class Watch
+{
+   public int Id { get; set; }
+   public string Name { get; set; }
+   public string Price { get; set; }
+}
