@@ -1,0 +1,9 @@
+//модель покупки : id и, соответственно, id часов. Имя покупателя, телефон, почта и т.д...
+
+public class Purchase
+{
+  public int Id { get; set; }
+  public int WatchId { get; set; }
+  public string Email { get; set; }
+  public int PhoneNumber { get; set; } //или лучше string???
+}
