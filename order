@@ -1,0 +1,13 @@
+//<form>???
+//...
+<p>Ваше имя:</p>
+<p><input type="text" name="Name" /></p>
+
+<p>Ваша почта:</p>
+<p><input type="text" name="Email" /></p>
+
+<p>Номер телефона:</p>
+<p><input type="text" name="PhoneNumber" /></p>
+
+<p>Введите адрес доставки:</p><p><input type="text" name="Address" /></p>
+//...
