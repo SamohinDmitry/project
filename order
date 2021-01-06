@@ -1,5 +1,5 @@
 <form method="post">
-//...
+
 <p>Ваше имя:</p>
 <p><input type="text" name="Name" /></p>
 
@@ -10,4 +10,5 @@
 <p><input type="text" name="PhoneNumber" /></p>
 
 <p>Введите адрес доставки:</p><p><input type="text" name="Address" /></p>
-//...
+
+</form>
