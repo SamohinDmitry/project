@@ -5,6 +5,6 @@ using System.Data.Entity; //подключаем энтити
 
 public class Context : DbContext
 {
-   public DbSet Watches { get; set; }
-   public DbSet Purchases { get; set; }
+   public DbSet<Watch> Watches { get; set; }
+   public DbSet<Purchase> Purchases { get; set; }
 }
