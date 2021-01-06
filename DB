@@ -1,0 +1,14 @@
+public class DBInitializer : DropCreateDatabaseAlways<Context>
+    {
+        protected override void Seed(Context context) //бд
+        {
+            context.Watches.Add(new Watch() { Name = "Rolex", Price = 18, Img = "/img/w1.png" }); //наполняем базу! (ПРИМЕР)
+            context.Watches.Add(new Watch() { Name = "Hublot", Price = 14, Img = "/img/w2.png" }); //наполняем базу! (ПРИМЕР)
+            context.Watches.Add(new Watch() { Name = "PATRIOT", Price = 88, Img = "/img/w3.png" }); //наполняем базу! (ПРИМЕР)
+            context.Watches.Add(new Watch() { Name = "gshock", Price = 1337, Img = "/img/w4.png" }); //наполняем базу! (ПРИМЕР)
+            context.Watches.Add(new Watch() { Name = "samsung watch", Price = 1000, Img = "/img/w5.png" }); //наполняем базу! (ПРИМЕР)
+            context.Watches.Add(new Watch() { Name = "mi band", Price = 228, Img = "/img/w6.png" }); //наполняем базу! (ПРИМЕР)
+            
+            base.Seed(context); //переопр
+        }
+    }
