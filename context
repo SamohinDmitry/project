@@ -1,0 +1,7 @@
+//создаем контекст данных (класс-посредник с БД)
+
+public class Context : DbContext
+{
+   public DbSet Watches { get; set; }
+   public DbSet Purchases { get; set; }
+}
