@@ -1,6 +1,6 @@
-public class DBInitializer : DropCreateDatabaseAlways<Context>
+public class DBInitializer : DropCreateDatabaseAlways<Context> // этот класс заполняет БД
     {
-        protected override void Seed(Context context) //бд
+        protected override void Seed(Context context) 
         {
             context.Watches.Add(new Watch() { Name = "Rolex", Price = 18, Img = "https://g5.sunlight.net/media/i/600/77/products/42dd3a26d059b390a256f1788d3842e16b5ba5fd.jpg" }); //наполняем базу! (ПРИМЕР)
             context.Watches.Add(new Watch() { Name = "Hublot", Price = 14, Img = "https://g5.sunlight.net/media/i/600/77/products/42dd3a26d059b390a256f1788d3842e16b5ba5fd.jpg" }); //наполняем базу! (ПРИМЕР)
