@@ -6,6 +6,8 @@ using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 using Market.Models;
+using System.Data.Entity;            //и подключаем Энтити
+
 
 namespace Market
 {
