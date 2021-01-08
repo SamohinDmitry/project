@@ -13,6 +13,8 @@ namespace Market
     {
         protected void Application_Start()
         {
+            Database.SetInitializer(new DBInitializer());           //Теперь этот класс будет срабатывать при запуске приложения
+
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
