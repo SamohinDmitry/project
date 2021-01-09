@@ -1,0 +1,12 @@
+public class HomeController : Controller
+    {
+        Context watchContext = new Context();
+        public ActionResult Index()
+        {
+            IEnumerable<Watch> watches = watchContext.Watches;     //извлекаем данные из заполненной таблицы Watches
+
+            ViewBag.Watches = watches;
+            return View();
+        }
+        
+        //таким образом мы вернем объект
