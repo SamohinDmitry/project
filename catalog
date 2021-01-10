@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>layout</title>
+    <title>catalog</title>
 </head>
 <body>
 
@@ -13,7 +13,7 @@
 <p><a href="#">Купить</a></p>
 
 @{
- foreach (i in watch)           //цикл на си шарпе передает значения соответсвующих полей (пикча, имя и т.д...)
+ foreach (var watch in ViewBag.Watches)             //теперь все ок           //цикл на си шарпе передает значения соответсвующих полей (пикча, имя и т.д...)
     {
       <p>@watch.Img</p>
       <p>@watch.Name</p>
