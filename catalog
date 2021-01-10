@@ -1,3 +1,7 @@
+@{
+    Layout = null; //(пока что без мастера страниц)
+}
+
 <!DOCTYPE html>
 <html>
 <head>
