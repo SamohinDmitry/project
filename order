@@ -19,18 +19,18 @@
 <input type="hidden" name="WatchId" value="@ViewBag.Id" />
 
 <p>Ваше имя:</p>
-<p><input type="text" name="Name" /></p>
+<p><input type="text" name="Name" /></p>                                    //поле ввода для ИМЕНИ
 
 <p>Ваша почта:</p>
-<p><input type="text" name="Email" /></p>
+<p><input type="text" name="Email" /></p>                                   //поле ввода для ПОЧТЫ
 
 <p>Номер телефона:</p>
-<p><input type="text" name="PhoneNumber" /></p>
+<p><input type="text" name="PhoneNumber" /></p>                             //поле ввода для НОМЕРА ТЕЛЕФОНА
 
 <p>Введите адрес доставки:</p>
-<p><input type="text" name="Address" /></p>
+<p><input type="text" name="Address" /></p>                                 //поле ввода для АДРЕСА
 
-<input type="submit" value="Оформить покупку" />
+<input type="submit" value="Оформить покупку" />                            //кнопка ОФОРМИТЬ ПОКУПКУ
 
 </form>
 
