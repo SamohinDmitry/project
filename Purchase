@@ -6,4 +6,5 @@ public class Purchase
   public int WatchId { get; set; }
   public string Email { get; set; }
   public int PhoneNumber { get; set; } //или лучше string???
+  public string Name { get; set; }
 }
