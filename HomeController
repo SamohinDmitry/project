@@ -5,8 +5,6 @@ public class HomeController : Controller
         {
             IEnumerable<Watch> watches = watchContext.Watches;     //извлекаем данные из заполненной таблицы Watches
 
-            ViewBag.Watches = watches;
-            return View();
+            ViewBag.Watches = watches;                             // мы записали коллекию watch во вьюбэк (динамиеский объект) и будем передавать в представление
+            return View();                                        // генерируем представление
         }
-        
-        //таким образом мы вернем объект
