@@ -3,7 +3,7 @@
 <head>
     <link type="text/css" rel="stylesheet" href="~/Content/Site.css" />          //(дописать .css в стилях)
     <link href="~/Content/bootstrap.css" rel="stylesheet" type="text/css" />    //(бутстрап(если будет нужен))
-    <title>щквук</title>
+    <title>order</title>
     
 </head>
 <body>
