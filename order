@@ -1,3 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link type="text/css" rel="stylesheet" href="~/Content/Site.css" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" type="text/css" />
+    <title>TEST</title>
+    
+</head>
+<body>
+
+<div>
+
 <form method="post">
 
 <p>Ваше имя:</p>
@@ -12,3 +24,7 @@
 <p>Введите адрес доставки:</p><p><input type="text" name="Address" /></p>
 
 </form>
+
+</div>
+</body>
+</html>
