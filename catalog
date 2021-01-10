@@ -1,13 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>layout</title>
+</head>
+<body>
+
+<div>
+
 <p>Фото</p>
 <p>Название</p>
 <p>Цена</p>
 <p><a href="#">Купить</a></p>
 
-//@{
-// foreach (i in watch) 
-//    {
-//      <p>@watch.Img</p>
-//      <p>@watch.Name</p>
-//      <p>@watch.Price</p>
-//    }
-//}
+@{
+ foreach (i in watch)           //цикл на си шарпе передает значения соответсвующих полей (пикча, имя и т.д...)
+    {
+      <p>@watch.Img</p>
+      <p>@watch.Name</p>
+      <p>@watch.Price</p>
+      <p>@watch.Id</p>
+    }
+}
+
+</div>
+    
+</body>
+</html>
