@@ -7,4 +7,5 @@ public class Purchase
   public string Email { get; set; }
   public int PhoneNumber { get; set; } //или лучше string???
   public string Name { get; set; }
+  public string Adress { get; set; }
 }
