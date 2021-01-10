@@ -14,7 +14,9 @@
 
 <div>
 
-<form method="post">
+<form method="post" action="">
+
+<input type="hidden" name="WatchId" value="@ViewBag.Id" />
 
 <p>Ваше имя:</p>
 <p><input type="text" name="Name" /></p>
@@ -25,7 +27,10 @@
 <p>Номер телефона:</p>
 <p><input type="text" name="PhoneNumber" /></p>
 
-<p>Введите адрес доставки:</p><p><input type="text" name="Address" /></p>
+<p>Введите адрес доставки:</p>
+<p><input type="text" name="Address" /></p>
+
+<input type="submit" value="Оформить покупку" />
 
 </form>
 
