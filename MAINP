@@ -1,0 +1,23 @@
+
+
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>intr</title>
+        <link type="text/css" rel="stylesheet" href="~/Content/Site.css" / >
+        <link href="~/Content/bootstrap.css" rel="stylesheet" type="text/css" / >
+</head>
+<body>
+
+
+
+
+
+    <video width="100%" autoplay muted loop id="vid">
+        <source src="\img\oris.mp4">
+    </video>
+
