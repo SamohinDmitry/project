@@ -15,3 +15,11 @@ public class HomeController : Controller
 
             return View();
         }
+        
+        public ActionResult order(Purchase purchase)           //метод добавляет в бд данные, переданные в форму представления order     
+        {
+            purchase.DateTime = GetTodayDate();
+
+            Context.Purchases.Add(purchase);
+            return View();
+        }
