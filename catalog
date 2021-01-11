@@ -11,22 +11,24 @@
 
 <div>
 
-<p>Фото</p>
-<p>Название</p>
-<p>Цена</p>
-<p><a href="#">Купить</a></p>
+    <div class="row mt-5">                           //бутстраповские селекторы для адаптивности (mt = margin-top и так далее)
 
-@{
- foreach (var watch in ViewBag.Watches)             //теперь все ок           //цикл на си шарпе передает значения соответсвующих полей (пикча, имя и т.д...)
-    {
-      <p>@watch.Img</p>
-      <p>@watch.Name</p>
-      <p>@watch.Price</p>
-      <p>@watch.Id</p>
-    }
-}
+        @{
+            foreach (var watch in ViewBag.Watches)         //html название, производитель, ... выводятся для каждого товара вместе с ним. Они тоже должны быть в цикле
+            {
+                <div class="col-md-4">
+                    <img src="@watch.Img" />
+                    <p>Название: @watch.Name</p>
+                    <p>Производитель: @watch.Producer</p>
+                    <p>Цена: $ @watch.Price</p>
+                    <a class="btn" href="#">Купить</a>
+                </div>
+            }
+        }
 
-</div>
+    </div>
+
+</div
     
 </body>
 </html>
