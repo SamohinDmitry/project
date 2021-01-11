@@ -14,7 +14,7 @@
 
 <div>
 
-<form method="post" action="">
+<form method="get" action="#">                                       //*get             //в экшене будет ссылка на страницу после оформления товара
 
 <input type="hidden" name="WatchId" value="@ViewBag.Id" />
 
