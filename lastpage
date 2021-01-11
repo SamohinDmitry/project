@@ -7,15 +7,39 @@
 <head>
     <meta charset="UTF-8">
     <title>lastpage</title>
-        <link type="text/css" rel="stylesheet" href="~/Content/Site.css" / >
+                                                                                 <!-- <link type="text/css" rel="stylesheet" href="~/Content/Site.css" / > (пока закомментим)-->
         <link href="~/Content/bootstrap.css" rel="stylesheet" type="text/css" / >
+        <style>
+video 
+{
+    position: fixed;   //закрепляем видео на фоне
+    bottom: 0;         //заполняем пространство внизу и справа                  
+    right: 0;
+}
+
+.nav
+{
+    //здесь будет селектор для класса nav
+}
+
+        </style>
 </head>
 <body>
 
 
     <video width="100%" autoplay muted loop>
         <source src="https://youtu.be/ZyE_BWwbXUU">
-    </video>
+    </video>                //если текст будет поверх видео, это ухудшит читабельность. (его можно добавить на раскрашенных дивах)
     
-    ...
+    <div class="nav">       //навигация
+<div><a>На главную</a></div>
+<div><a>Магазин</a></div>
+<div><a>О нас</a></div>
+    </div>
     
+    ...   //основная инфа страницы
+    
+    
+    
+</body>
+</html>
