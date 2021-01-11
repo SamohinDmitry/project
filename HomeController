@@ -8,3 +8,10 @@ public class HomeController : Controller
             ViewBag.Watches = watches;                             // мы записали коллекию watch во вьюбэк (динамиеский объект) и будем передавать в представление
             return View();                                        // генерируем представление
         }
+
+        public ActionResult order(int id)                         //передаем в order айди товара
+        {
+            ViewBag.Id = id;
+
+            return View();
+        }
