@@ -1,4 +1,4 @@
-<style>
+
 video 
 {
     position: fixed;   //закрепляем видео на фоне
@@ -25,7 +25,12 @@ video
 
 .navtxtmain
 {
-    //здесь будет селектор для текста навигации главной страницы
+    text-shadow: 2px 2px black;
+    font-size: 50px; 
+    color: white;
+    font-family: "Gill Sans", sans-serif;
+    
+    position: relative;                         //что бы текст был виден на видео
 }
 
 .desc
