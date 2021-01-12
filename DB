@@ -2,12 +2,12 @@ public class DBInitializer : DropCreateDatabaseAlways<Context> // этот кл�
     {
         protected override void Seed(Context context) 
         {
-            context.Watches.Add(new Watch() { Name = "Rolex", Price = 18, Img = "https://g5.sunlight.net/media/i/600/77/products/42dd3a26d059b390a256f1788d3842e16b5ba5fd.jpg" }); //наполняем базу! (ПРИМЕР)
-            context.Watches.Add(new Watch() { Name = "Hublot", Price = 14, Img = "https://g5.sunlight.net/media/i/600/77/products/42dd3a26d059b390a256f1788d3842e16b5ba5fd.jpg" }); //наполняем базу! (ПРИМЕР)
-            context.Watches.Add(new Watch() { Name = "PATRIOT", Price = 88, Img = "https://g5.sunlight.net/media/i/600/77/products/42dd3a26d059b390a256f1788d3842e16b5ba5fd.jpg" }); //наполняем базу! (ПРИМЕР)
-            context.Watches.Add(new Watch() { Name = "gshock", Price = 1337, Img = "https://g5.sunlight.net/media/i/600/77/products/42dd3a26d059b390a256f1788d3842e16b5ba5fd.jpgg" }); //наполняем базу! (ПРИМЕР)
-            context.Watches.Add(new Watch() { Name = "samsung watch", Price = 1000, Img = "https://g5.sunlight.net/media/i/600/77/products/42dd3a26d059b390a256f1788d3842e16b5ba5fd.jpg" }); //наполняем базу! (ПРИМЕР)
-            context.Watches.Add(new Watch() { Name = "mi band", Price = 228, Img = "https://g5.sunlight.net/media/i/600/77/products/42dd3a26d059b390a256f1788d3842e16b5ba5fd.jpg" }); //наполняем базу! (ПРИМЕР)
+            context.Watches.Add(new Watch() { Name = "Rolex", Price = 18, Producer = "russia", Img = "https://g5.sunlight.net/media/i/600/77/products/42dd3a26d059b390a256f1788d3842e16b5ba5fd.jpg" }); //наполняем базу! (ПРИМЕР)
+            context.Watches.Add(new Watch() { Name = "Hublot", Price = 14, Producer = "russia", Img = "https://g5.sunlight.net/media/i/600/77/products/42dd3a26d059b390a256f1788d3842e16b5ba5fd.jpg" }); //наполняем базу! (ПРИМЕР)
+            context.Watches.Add(new Watch() { Name = "PATRIOT", Price = 88, Producer = "russia", Img = "https://g5.sunlight.net/media/i/600/77/products/42dd3a26d059b390a256f1788d3842e16b5ba5fd.jpg" }); //наполняем базу! (ПРИМЕР)
+            context.Watches.Add(new Watch() { Name = "gshock", Price = 1337, Producer = "russia", Img = "https://g5.sunlight.net/media/i/600/77/products/42dd3a26d059b390a256f1788d3842e16b5ba5fd.jpgg" }); //наполняем базу! (ПРИМЕР)
+            context.Watches.Add(new Watch() { Name = "samsung watch", Price = 1000, Producer = "russia", Img = "https://g5.sunlight.net/media/i/600/77/products/42dd3a26d059b390a256f1788d3842e16b5ba5fd.jpg" }); //наполняем базу! (ПРИМЕР)
+            context.Watches.Add(new Watch() { Name = "mi band", Price = 228, Producer = "russia", Img = "https://g5.sunlight.net/media/i/600/77/products/42dd3a26d059b390a256f1788d3842e16b5ba5fd.jpg" }); //наполняем базу! (ПРИМЕР)
             
             base.Seed(context); //переопр
         }
