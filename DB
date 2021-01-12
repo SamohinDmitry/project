@@ -1,4 +1,12 @@
-public class DBInitializer : DropCreateDatabaseAlways<Context> // этот класс заполняет БД
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Data.Entity;
+
+namespace Market.Models
+{
+    public class DBInitializer : DropCreateDatabaseAlways<Context> // этот класс заполняет БД
     {
         protected override void Seed(Context context) 
         {
@@ -12,3 +20,4 @@ public class DBInitializer : DropCreateDatabaseAlways<Context> // этот кл�
             base.Seed(context); //переопр
         }
     }
+}
