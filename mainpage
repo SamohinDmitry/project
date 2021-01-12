@@ -21,7 +21,9 @@
         <source src="https://youtu.be/ZyE_BWwbXUU">                 //Видео будет располагаться на фоне
     </video>
     
-                                                                                        //НАВИГАЦИЯ
+    <div></div>                                                     //этот див будет блюрить видео на фоне, чтобы текст на страницы с ним не сливался!
+    
+                                                                                                        //НАВИГАЦИЯ
         <div class="navmain"><a class="navtxtmain" href="">На главную</a></div>                        //ССЫЛКА НА ГЛАВНУЮ (ЭТУ ЖЕ СТРАНИЦУ)
         <div class="navmain"><a class="navtxtmain" href="">Магазин</a></div>                           //ССЫЛКА НА СТРАНИЦУ С ТОВАРАМИ
         <div class="navmain"><a class="navtxtmain" href="">О нас</a></div>                            //ССЫЛКА НА ПОСЛЕДНЮЮ СТРАНИЦУ (LASTPAGE)
