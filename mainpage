@@ -17,7 +17,7 @@
 
 
 
-    <video width="100%" autoplay muted loop id="vid">
+    <video width="100%" autoplay muted loop>
         <source src="https://youtu.be/ZyE_BWwbXUU">                 //Видео будет располагаться на фоне
     </video>
     
