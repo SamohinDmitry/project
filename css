@@ -6,7 +6,14 @@ video
     right: 0;
 }
 
-.blurfull{}
+.blurfull
+{
+    position: fixed;        //фиксированный див; растянутый на всю ширину и высоту; без промежутков
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 .navmain
 {
