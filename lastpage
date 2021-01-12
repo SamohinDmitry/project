@@ -32,6 +32,16 @@ video
     //здесь будет селектор для класса preimush
 }
 
+.feedback
+{
+    //здесь будет селектор для класса feedback
+}
+
+.contacts
+{
+    //здесь будет селектор для класса contacts
+}
+
         </style>
 </head>
 <body>
