@@ -7,42 +7,9 @@
 <head>
     <meta charset="UTF-8">
     <title>lastpage</title>
-                                                                 // <link type="text/css" rel="stylesheet" href="~/Content/Site.css" / > (пока закомментим)
+        <link type="text/css" rel="stylesheet" href="~/Content/Site.css" / >
         <link href="~/Content/bootstrap.css" rel="stylesheet" type="text/css" / >
-        <style>
-video 
-{
-    position: fixed;   //закрепляем видео на фоне
-    bottom: 0;         //заполняем пространство внизу и справа                  
-    right: 0;
-}
-
-.nav
-{
-    //здесь будет селектор для класса nav
-}
-
-.desc
-{
-    //здесь будет селектор для класса desc
-}
-
-.preimush
-{
-    //здесь будет селектор для класса preimush
-}
-
-.feedback
-{
-    //здесь будет селектор для класса feedback
-}
-
-.contacts
-{
-    //здесь будет селектор для класса contacts
-}
-
-        </style>
+        
 </head>
 <body>
 
