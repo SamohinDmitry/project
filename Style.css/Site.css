@@ -11,6 +11,15 @@ video
     padding: 20px;
 }
 
+a
+{
+    font-size: 50px;
+    color: white;
+    font-family: "Gill Sans", sans-serif;
+    
+    position: relative;     //ЧТОБЫ ВИДЕО НА ФОНЕ НЕ ПЕРЕКРЫВАЛО ТЕКСТ
+}
+
 .desc
 {
     //здесь будет селектор для класса desc
