@@ -21,11 +21,11 @@
         <source src="https://youtu.be/ZyE_BWwbXUU">                 //Видео будет располагаться на фоне
     </video>
     
-    <div class="nav">                                               //НАВИГАЦИЯ
-        <div><a class="navtxtmain" href="">На главную</a></div>                        //ССЫЛКА НА ГЛАВНУЮ (ЭТУ ЖЕ СТРАНИЦУ)
-        <div><a class="navtxtmain" href="">Магазин</a></div>                           //ССЫЛКА НА СТРАНИЦУ С ТОВАРАМИ
-        <div><a class="navtxtmain" href="">О нас</a></div>                            //ССЫЛКА НА ПОСЛЕДНЮЮ СТРАНИЦУ (LASTPAGE)
-    </div>
+                                                                                        //НАВИГАЦИЯ
+        <div class="navmain"><a class="navtxtmain" href="">На главную</a></div>                        //ССЫЛКА НА ГЛАВНУЮ (ЭТУ ЖЕ СТРАНИЦУ)
+        <div class="navmain"><a class="navtxtmain" href="">Магазин</a></div>                           //ССЫЛКА НА СТРАНИЦУ С ТОВАРАМИ
+        <div class="navmain"><a class="navtxtmain" href="">О нас</a></div>                            //ССЫЛКА НА ПОСЛЕДНЮЮ СТРАНИЦУ (LASTPAGE)
+    
     
 </body>
 </html>
