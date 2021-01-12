@@ -22,9 +22,9 @@
     </video>
     
     <div class="nav">                                               //НАВИГАЦИЯ
-        <div><a href="">На главную</a></div>                        //ССЫЛКА НА ГЛАВНУЮ (ЭТУ ЖЕ СТРАНИЦУ)
-        <div><a href="">Магазин</a></div>                           //ССЫЛКА НА СТРАНИЦУ С ТОВАРАМИ
-        <div><a href="">О нас</a></div>                            //ССЫЛКА НА ПОСЛЕДНЮЮ СТРАНИЦУ (LASTPAGE)
+        <div><a class="navtxtmain" href="">На главную</a></div>                        //ССЫЛКА НА ГЛАВНУЮ (ЭТУ ЖЕ СТРАНИЦУ)
+        <div><a class="navtxtmain" href="">Магазин</a></div>                           //ССЫЛКА НА СТРАНИЦУ С ТОВАРАМИ
+        <div><a class="navtxtmain" href="">О нас</a></div>                            //ССЫЛКА НА ПОСЛЕДНЮЮ СТРАНИЦУ (LASTPAGE)
     </div>
     
 </body>
