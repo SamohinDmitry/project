@@ -19,7 +19,8 @@ video
 
 .navmain
 {
-    //здесь будет селектор для класса nav
+    margin: 20px;                    //отступы
+    padding: 20px;
 }
 
 .navtxtmain
