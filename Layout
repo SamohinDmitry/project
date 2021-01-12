@@ -2,6 +2,8 @@
 <html>
 <head>
     <title>layout</title>
+    <link type="text/css" rel="stylesheet" href="~/Content/Site.css" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <div>
