@@ -39,12 +39,12 @@ video
     
     <h1>WATCH SHOP</h1>
     
-    <div>                                                //блок с описанием и лого
-        <div><img src="#" alt="LOGO" /></div>           //здесь будет логотип сайта
+    <div class="desc">                                                //блок с описанием и лого
+        <div><img src="#" alt="LOGO" /></div>                       //здесь будет логотип сайта
         <div><p>description</p></div>                              //описание нашего сайта
     </div>
     
-    <div>                                                  //блок с преимуществами
+    <div calss="preimush">                                //блок с преимуществами
         <div><h2>Наши преимущества:</h2></div>
         
         <div>
@@ -58,7 +58,7 @@ video
     <div>   
         <div><h2>Отзывы:</h2></div>
 
-        <div>                                               //блок отзывов
+        <div class="feedback">                               //блок отзывов
 
             <div><img src="#" alt="feedpic1" /></div>       //фотка покупателя
             <div><p>feedback1</p></div>                     //и его отзыв
@@ -72,6 +72,10 @@ video
         </div>
     </div>
     
+    <div class="contacts">                               //блок контактов и инфы магазина
+        <div><p> info </p></div>                        //сама информация
+        <div> //карта </div>                       //магазин на карте
+    </div>
     
 </body>
 </html>
