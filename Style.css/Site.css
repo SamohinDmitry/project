@@ -7,7 +7,8 @@ video
 
 .nav
 {
-    //здесь будет селектор для класса nav
+    margin: 20px;
+    padding: 20px;
 }
 
 .desc
