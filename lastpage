@@ -7,7 +7,7 @@
 <head>
     <meta charset="UTF-8">
     <title>lastpage</title>
-                                                                                 <!-- <link type="text/css" rel="stylesheet" href="~/Content/Site.css" / > (пока закомментим)-->
+                                                                 // <link type="text/css" rel="stylesheet" href="~/Content/Site.css" / > (пока закомментим)
         <link href="~/Content/bootstrap.css" rel="stylesheet" type="text/css" / >
         <style>
 video 
@@ -29,16 +29,48 @@ video
 
     <video width="100%" autoplay muted loop>
         <source src="https://youtu.be/ZyE_BWwbXUU">
-    </video>                //если текст будет поверх видео, это ухудшит читабельность. (его можно добавить на раскрашенных дивах)
+    </video>                                             //если текст будет поверх видео, это ухудшит читабельность. (его можно добавить на раскрашенных дивах)
     
-    <div class="nav">       //навигация
+    <div class="nav">                                    //навигация
 <div><a>На главную</a></div>
 <div><a>Магазин</a></div>
 <div><a>О нас</a></div>
     </div>
     
-    ...   //основная инфа страницы
+    <h1>WATCH SHOP</h1>
     
+    <div>                                                //блок с описанием и лого
+        <div><img src="#" alt="LOGO" /></div>           //здесь будет логотип сайта
+        <div><p>description</p></div>                              //описание нашего сайта
+    </div>
+    
+    <div>                                                  //блок с преимуществами
+        <div><h2>Наши преимущества:</h2></div>
+        
+        <div>
+             <h3> 1 </h3>                                   //первое
+             <h3> 2 </h3>                                   //второе
+             <h3> 3 </h3>                                   //третье
+        </div>
+        
+    </div>
+    
+    <div>   
+        <div><h2>Отзывы:</h2></div>
+
+        <div>                                               //блок отзывов
+
+            <div><img src="#" alt="feedpic1" /></div>       //фотка покупателя
+            <div><p>feedback1</p></div>                     //и его отзыв
+
+            <div><img src="#" alt="feedpic2" /></div>       //фотка покупателя
+            <div><p>feedback2</p></div>                     //и его отзыв
+
+            <div><img src="#" alt="feedpic3" /></div>       //фотка покупателя
+            <div><p>feedback3</p></div>                     //и его отзыв
+
+        </div>
+    </div>
     
     
 </body>
