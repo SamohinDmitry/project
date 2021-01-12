@@ -5,7 +5,7 @@
     <link type="text/css" rel="stylesheet" href="~/Content/Site.css" />
     <link href="~/Content/bootstrap.css" rel="stylesheet" type="text/css" />
 </head>
-<body>
+<body background="#">
     <div>
     
     <div class="nav">                                    //навигация
