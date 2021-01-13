@@ -1,3 +1,7 @@
+img {
+    position: relative;
+}
+
 video 
 {
     position: fixed;   //закрепляем видео на фоне
