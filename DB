@@ -10,15 +10,15 @@ namespace Market.Models
     {
         protected override void Seed(Context context) 
         {
-            context.Watches.Add(new Watch() { Name = "Day date", Price = 25000, Producer = "Swiss", Img = "https://g5.sunlight.net/media/i/600/77/products/42dd3a26d059b390a256f1788d3842e16b5ba5fd.jpg" });
-            context.Watches.Add(new Watch() { Name = "Sky Dweller", Price = 23000, Producer = "Swiss", Img = "https://g5.sunlight.net/media/i/600/77/products/42dd3a26d059b390a256f1788d3842e16b5ba5fd.jpg" });
-            context.Watches.Add(new Watch() { Name = "Cosmograph", Price = 30000, Producer = "Swiss", Img = "https://g5.sunlight.net/media/i/600/77/products/42dd3a26d059b390a256f1788d3842e16b5ba5fd.jpg" });
-            context.Watches.Add(new Watch() { Name = "Milgauss", Price = 37600, Producer = "Swiss", Img = "https://g5.sunlight.net/media/i/600/77/products/42dd3a26d059b390a256f1788d3842e16b5ba5fd.jpgg" });
-            context.Watches.Add(new Watch() { Name = "Deepsea", Price = 10200, Producer = "Swiss", Img = "https://g5.sunlight.net/media/i/600/77/products/42dd3a26d059b390a256f1788d3842e16b5ba5fd.jpg" }); 
-            context.Watches.Add(new Watch() { Name = "Oyster", Price = 31240, Producer = "Swiss", Img = "https://g5.sunlight.net/media/i/600/77/products/42dd3a26d059b390a256f1788d3842e16b5ba5fd.jpg" }); 
-            context.Watches.Add(new Watch() { Name = "Montre", Price = 12000, Producer = "Swiss", Img = "https://g5.sunlight.net/media/i/600/77/products/42dd3a26d059b390a256f1788d3842e16b5ba5fd.jpg" });
-            context.Watches.Add(new Watch() { Name = "Yacht", Price = 11080, Producer = "Swiss", Img = "https://g5.sunlight.net/media/i/600/77/products/42dd3a26d059b390a256f1788d3842e16b5ba5fd.jpg" });
-            context.Watches.Add(new Watch() { Name = "Submariner", Price = 29500, Producer = "Swiss", Img = "https://g5.sunlight.net/media/i/600/77/products/42dd3a26d059b390a256f1788d3842e16b5ba5fd.jpg" });
+            context.Watches.Add(new Watch() { Name = "Day date", Price = 25000, Producer = "Swiss", Img = "/data/w1.png" });
+            context.Watches.Add(new Watch() { Name = "Sky Dweller", Price = 23000, Producer = "Swiss", Img = "/data/w2.png" });
+            context.Watches.Add(new Watch() { Name = "Cosmograph", Price = 30000, Producer = "Swiss", Img = "/data/w3.png" });
+            context.Watches.Add(new Watch() { Name = "Milgauss", Price = 37600, Producer = "Swiss", Img = "/data/w4.png" });
+            context.Watches.Add(new Watch() { Name = "Deepsea", Price = 10200, Producer = "Swiss", Img = "/data/w5.png" }); 
+            context.Watches.Add(new Watch() { Name = "Oyster", Price = 31240, Producer = "Swiss", Img = "/data/w6.png" }); 
+            context.Watches.Add(new Watch() { Name = "Montre", Price = 12000, Producer = "Swiss", Img = "/data/w7.png" });
+            context.Watches.Add(new Watch() { Name = "Yacht", Price = 11080, Producer = "Swiss", Img = "/data/w8.png" });
+            context.Watches.Add(new Watch() { Name = "Submariner", Price = 29500, Producer = "Swiss", Img = "/data/w9.png" });
             
             base.Seed(context); //переопр
         }
