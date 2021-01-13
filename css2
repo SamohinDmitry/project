@@ -17,8 +17,31 @@ video
 
 .nav
 {
-    //
-    //
+    position: relative;              //НАВИГАЦИЯ
+    display: flex;
+    margin-left: 20%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+}
+
+.third                                  //(три ссылки в одной строке с одинаковым промежутком)
+{
+    width: 33%;
+}
+
+.txtnav
+{                                   //текст навигации
+    text-shadow: 1px 1px black,
+    2px 2px black,
+    -1px -1px black,
+    -1px 1px black,
+    1px -1px black;
+
+    position: relative;
+    font-size: 30px;
+    color: white;
+    font-family: "Gill Sans", sans-serif;
 }
 
 a
