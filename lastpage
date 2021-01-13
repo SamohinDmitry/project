@@ -23,9 +23,9 @@
     
     
     <div class="nav">                                    //навигация
-<div><a>На главную</a></div>
-<div><a>Магазин</a></div>
-<div><a>О нас</a></div>
+<div class="third"><a class="txtnav" href="/Home/MainPage">На главную</a></div>
+<div class="third"><a class="txtnav" href="/Home/MainPage">Магазин</a></div>
+<div class="third"><a class="txtnav" href="/Home/MainPage">О нас</a></div>
     </div>
     
     <h1>LUXURY WATCHES SHOP</h1>
