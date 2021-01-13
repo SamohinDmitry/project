@@ -2,6 +2,10 @@ img {
     position: relative;
 }
 
+.vision {
+    position: relative;   //весь контент на странице не бдут загорожен видео
+}
+
 video 
 {
     position: fixed;   //закрепляем видео на фоне
