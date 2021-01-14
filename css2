@@ -30,6 +30,20 @@ video
     width: 33%;
 }
 
+.tex {
+    position: relative;
+    font-size: 20px;
+    color: white;
+    line-height: 1.5;
+    font-family: monospace;
+}
+
+.desc {
+    font-family: Georgia, serif;
+    font-size: 25px;
+}
+
+
 .txtnav
 {                                   //текст навигации
     text-shadow: 1px 1px black,
