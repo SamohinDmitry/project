@@ -107,5 +107,10 @@ img:hover {
 
 
 
-
+.shoptxt {
+    font-weight: bold;
+    color: black;
+    font-family: Georgia, serif;
+    font-size: 20px;
+}
 
