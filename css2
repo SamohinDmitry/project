@@ -124,6 +124,12 @@ video
     font-family: "Gill Sans", sans-serif;
 }
 
+
+h4 {
+    font-weight: normal;
+}
+
+
 .shoph {
     text-decoration: none !important;
     color: #ffd045;
