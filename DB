@@ -6,9 +6,9 @@ using System.Data.Entity;
 
 namespace Market.Models
 {
-    public class DBInitializer : DropCreateDatabaseAlways<Context> // этот класс заполняет БД
+    public class DBInitializer : DropCreateDatabaseAlways<WatchContext> // этот класс заполняет БД
     {
-        protected override void Seed(Context context) 
+        protected override void Seed(WatchContext context) 
         {
             context.Watches.Add(new Watch() { Name = "Day date", Price = 25000, Producer = "Swiss", Img = "/data/w1.png" });
             context.Watches.Add(new Watch() { Name = "Sky Dweller", Price = 23000, Producer = "Swiss", Img = "/data/w2.png" });
