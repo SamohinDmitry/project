@@ -72,6 +72,21 @@ video
 }
 
 
+.hh3 {
+    position: relative;
+    font-size: 25px;
+    color: #3CB371;
+    line-height: 2;
+    text-shadow: 1px 1px #363633;
+    font-family: "Gill Sans", sans-serif;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.star {
+    color: green;
+}
+
 .txtnav
 {                                   //текст навигации
     text-shadow: 1px 1px black,
