@@ -25,6 +25,13 @@ video
     padding-bottom: 100px;
 }
 
+
+.feedram {
+    border: 3px solid #010045;
+    margin: 10px;
+}
+
+
 .third                                  //(три ссылки в одной строке с одинаковым промежутком)
 {
     width: 33%;
