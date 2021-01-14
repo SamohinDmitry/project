@@ -44,6 +44,22 @@ video
 }
 
 
+#flex-container1 {
+    display: flex;
+    height: 550px;
+    margin-top: 350px;
+    background: rgba(0, 0, 0, 0.7);
+    margin-bottom: 200px;
+}
+
+    #flex-container1 > div {
+        width: 65%;
+    }
+
+        #flex-container1 > div:nth-of-type(1) {
+            width: 35%;
+        }
+
 .txtnav
 {                                   //текст навигации
     text-shadow: 1px 1px black,
