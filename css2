@@ -26,6 +26,18 @@ video
 }
 
 
+h2 {
+    position: relative;
+    font-size: 50px;
+    color: white;
+    text-shadow: 1px 1px black, 2px 2px black, -1px -1px black, -1px 1px black, 1px -1px black;
+    font-family: "Gill Sans", sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+
 .feedram {
     border: 3px solid #010045;
     margin: 10px;
