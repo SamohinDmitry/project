@@ -96,6 +96,22 @@ h2 {
             width: 20%;
         }
 
+
+#flex-container3 {
+    display: flex;
+    height: 600px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+    #flex-container3 > div {
+        width: 50%;
+    }
+
+        #flex-container3 > div:nth-of-type(1) {
+            width: 50%;
+        }
+
+
 .blurblock {
     top: 0;
     left: 0;
