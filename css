@@ -130,3 +130,12 @@ img:hover {
     font-family: "Gill Sans", sans-serif;
     text-align: center;
 }
+
+
+.lasttxt {
+    color: #1873CC;
+    margin: 50px;
+    font-size: 25px;
+    position: relative;
+    font-weight: bold;
+}
