@@ -60,6 +60,18 @@ video
             width: 35%;
         }
 
+
+.blurblock {
+    top: 0;
+    left: 0;
+    width: 95%;
+    height: 450px;
+    
+    margin-bottom: 200px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+
 .txtnav
 {                                   //текст навигации
     text-shadow: 1px 1px black,
