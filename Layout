@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>layout</title>
+    <title>Watch Shop</title>
     <link type="text/css" rel="stylesheet" href="~/Content/Site.css" />
     <link href="~/Content/bootstrap.css" rel="stylesheet" type="text/css" />
 </head>
-<body background="#">
+<body background="\data\bg.jpg">
     <div>
     
     <div class="nav">                                    //навигация
-        <div><a>На главную</a></div>
-        <div><a>Магазин</a></div>
-        <div><a>О нас</a></div>
+        <div class="third"><a class="txtnav" href="/Home/MainPage">На главную</a></div>
+        <div class="third"><a class="txtnav" href="/Home/Index">Магазин</a></div>
+        <div class="third"><a class="txtnav" href="/Home/LastPage">О нас</a></div>
     </div>
 
 
