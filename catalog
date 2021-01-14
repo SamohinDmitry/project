@@ -1,13 +1,6 @@
 @{
-    Layout = null; //(пока что без мастера страниц)
+    Layout = "/Views/Shared/_Layout.cshtml";
 }
-
-<!DOCTYPE html>
-<html>
-<head>
-    <title>catalog</title>
-</head>
-<body>
 
     <h2 class="shoph">Товары магазина</h2>
 
@@ -29,7 +22,3 @@
         }
     <a href="#" class="topbtn">Наверх ↑</a>
     </div>
-
-    
-</body>
-</html>
