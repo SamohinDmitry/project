@@ -44,6 +44,12 @@ video
     font-family: "Gill Sans", sans-serif;
 }
 
+.shoph {
+    text-decoration: none !important;
+    color: #ffd045;
+    font-size: 40px;
+}
+
 a
 {
     //
