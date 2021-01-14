@@ -9,7 +9,7 @@ using System.Data.Entity; //подключаем энтити
 namespace Market.Models
 {
 
-public class Context : DbContext
+public class WatchContext : DbContext
 {
    public DbSet<Watch> Watches { get; set; }
    public DbSet<Purchase> Purchases { get; set; }
