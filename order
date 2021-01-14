@@ -1,39 +1,24 @@
 @{
-    Layout = null; //(пока что без мастера страниц)
+    Layout = "/Views/Shared/_Layout.cshtml";
 }
 
-<!DOCTYPE html>
-<html>
-<head>
-    <link type="text/css" rel="stylesheet" href="~/Content/Site.css" />          //(дописать .css в стилях)
-    <link href="~/Content/bootstrap.css" rel="stylesheet" type="text/css" />    //(бутстрап(если будет нужен))
-    <title>order</title>
-    
-</head>
-<body>
+<h2 class="shoph">Оформление покупки</h2>
 
-<div>
+<br />
 
-<form method="get" action="#">                                       //*get             //в экшене будет ссылка на страницу после оформления товара
+<input class="form-control" type="hidden" name="WatchId" value="@ViewBag.Id" />
 
-<input type="hidden" name="WatchId" value="@ViewBag.Id" />
+    <h4>Ваше имя:</h4>
+    <input class="form-control" type="text" name="Name" placeholder="Имя" />
+    <br />
+    <h4>Ваш номер телефона:</h4>
+    <input class="form-control" type="text" name="PhoneNumber" placeholder="Телефон" />
+    <br />
+    <h4>Ваш адрес:</h4>
+    <input class="form-control" type="text" name="Address" placeholder="Адрес" />
 
-<p>Ваше имя:</p>
-<p><input type="text" name="Name" /></p>                                    //поле ввода для ИМЕНИ
+    <br />
 
-<p>Ваша почта:</p>
-<p><input type="text" name="Email" /></p>                                   //поле ввода для ПОЧТЫ
-
-<p>Номер телефона:</p>
-<p><input type="text" name="PhoneNumber" /></p>                             //поле ввода для НОМЕРА ТЕЛЕФОНА
-
-<p>Введите адрес доставки:</p>
-<p><input type="text" name="Address" /></p>                                 //поле ввода для АДРЕСА
-
-<input type="submit" value="Оформить покупку" />                            //кнопка ОФОРМИТЬ ПОКУПКУ
+    <p><input type="submit" class="btn btn-info" value="Оформить покупку" /></p>
 
 </form>
-
-</div>
-</body>
-</html>
