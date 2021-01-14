@@ -71,3 +71,19 @@ video
     font-family: "Gill Sans", sans-serif;
 }
 
+
+h1 {
+    animation-duration: 2s;
+    animation-name: anim;
+}
+
+@keyframes anim {
+    from {
+        margin-left: 100%;
+        width: 100%;
+    }
+
+    to {
+        width: 100%;
+    }
+}
