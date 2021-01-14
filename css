@@ -29,28 +29,29 @@ video
     font-size: 50px; 
     color: white;
     font-family: "Gill Sans", sans-serif;
-    
+    transition: all 0.3s;
     position: relative;                         //что бы текст был виден на видео
 }
 
-.desc
-{
-    //здесь будет селектор для класса desc
+.navtxtmain:hover {
+        color: #D4AF37;
 }
 
-.preimush
-{
-    //здесь будет селектор для класса preimush
+
+
+
+.navtxtmain:after {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 5px;
+    background-color: #D4AF37;
+    content: "";
+    transition: width 0.3s ease-out;
 }
 
-.feedback
-{
-    //здесь будет селектор для класса feedback
+.navtxtmain:hover:after,
+.navtxtmain:focus:after {
+     width: 100%;
 }
-
-.contacts
-{
-    //здесь будет селектор для класса contacts
-}
-
-        </style>
