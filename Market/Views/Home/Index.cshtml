@@ -1,0 +1,28 @@
+﻿
+@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+
+    <h2 class="shoph">Товары магазина</h2>
+
+    <br />
+
+    <div class="row mt-5 mb-2">
+
+        @{
+            foreach (var watch in ViewBag.Watches)
+            {
+                <div class="col-md-4">
+                    <img class="lef" height="450px" src="@watch.Img" />
+                    <p class="txtlef shoptxt">Название: @watch.Name</p>
+                    <p class="txtlef shoptxt">Производитель: @watch.Producer</p>
+                    <p class="txtlef shoptxt">Цена: $ @watch.Price</p>
+                    <a class="btn btn-success txtlef" href="/Home/Buy/@watch.Id">Оформить</a>
+                </div>
+            }
+        }
+
+    <a href="#" class="topbtn">Наверх ↑</a>
+
+    </div>

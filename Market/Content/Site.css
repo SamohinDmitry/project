@@ -1,0 +1,339 @@
+﻿img {
+    position: relative;
+}
+
+
+.lef {
+    margin: 20px;
+    margin-left: 50px;
+}
+
+.txtlef {
+    margin-left: 50px;
+}
+
+
+a {
+    text-decoration: none !important;
+}
+
+h4 {
+    font-weight: normal;
+}
+
+video {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+
+
+.navmain {
+    margin: 20px;
+    padding: 20px;
+}
+
+.navtxtmain {
+    text-shadow: 2px 2px black;
+    font-size: 50px;
+    color: white;
+    transition: all 0.3s;
+    font-family: "Gill Sans", sans-serif;
+}
+
+    .navtxtmain:hover {
+        color: #D4AF37;
+    }
+
+
+
+.navtxtmain {
+    position: relative;
+}
+
+    .navtxtmain:after {
+        display: block;
+        position: absolute;
+        left: 0;
+        width: 0;
+        height: 5px;
+        background-color: #D4AF37;
+        content: "";
+        transition: width 0.3s ease-out;
+    }
+
+    .navtxtmain:hover:after,
+    .navtxtmain:focus:after {
+        width: 100%;
+    }
+
+
+
+.blurfull {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.blurblock {
+    top: 0;
+    left: 0;
+    width: 95%;
+    height: 450px;
+    
+    margin-bottom: 200px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.blurblock2 {
+    width: 100%;
+}
+
+.vision {
+    position: relative;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.nav {
+    position: relative;
+    display: flex;
+    margin-left: 20%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+}
+
+    .third {
+
+        width: 33%;
+
+    }
+
+
+
+.shoph {
+    text-decoration: none !important;
+    color: #ffd045;
+    font-size: 40px;
+}
+
+.shoptxt {
+    font-weight: bold;
+    color: black;
+    font-family: Georgia, serif;
+    font-size: 20px;
+}
+
+.topbtn {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+
+.txtnav {
+    text-shadow: 1px 1px black,
+    2px 2px black,
+    -1px -1px black,
+    -1px 1px black,
+    1px -1px black;
+
+    position: relative;
+    font-size: 30px;
+    color: white;
+    transition: all 0.3s;
+    font-family: "Gill Sans", sans-serif;
+}
+
+    .txtnav:hover {
+        color: #D4AF37;
+    }
+
+
+    .txtnav:after {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 5px;
+        background-color: #D4AF37;
+        content: "";
+    }
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+#flex-container1 {
+    display: flex;
+    height: 550px;
+    margin-top: 350px;
+    background: rgba(0, 0, 0, 0.7);
+    margin-bottom: 200px;
+}
+
+    #flex-container1 > div {
+        width: 65%;
+    }
+
+        #flex-container1 > div:nth-of-type(1) {
+            width: 35%;
+        }
+
+#flex-container2 {
+    display: flex;
+    height: 300px;
+    background: rgba(0, 0, 0, 0.7);
+    border: 3px solid;
+    background: #666667;
+}
+
+    #flex-container2 > div {
+        width: 80%;
+    }
+
+        #flex-container2 > div:nth-of-type(1) {
+            width: 20%;
+        }
+
+#flex-container3 {
+    display: flex;
+    height: 600px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+    #flex-container3 > div {
+        width: 50%;
+    }
+
+        #flex-container3 > div:nth-of-type(1) {
+            width: 50%;
+        }
+
+
+
+
+
+.shopname {
+    position: relative;
+    font-size: 70px;
+    color: white;
+    text-shadow: 3px 3px #363633, 4px 4px #363633, 5px 5px #363633;
+    font-family: "Gill Sans", sans-serif;
+    text-align: center;
+}
+
+.tex {
+    position: relative;
+    font-size: 20px;
+    color: white;
+    line-height: 1.5;
+    font-family: monospace;
+}
+
+.desc {
+    font-family: Georgia, serif;
+    font-size: 25px;
+}
+
+
+
+
+h2 {
+    position: relative;
+    font-size: 50px;
+    color: white;
+    text-shadow: 1px 1px black, 2px 2px black, -1px -1px black, -1px 1px black, 1px -1px black;
+    font-family: "Gill Sans", sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+
+.hh3 {
+    position: relative;
+    font-size: 25px;
+    color: #3CB371;
+    line-height: 2;
+    text-shadow: 1px 1px #363633;
+    font-family: "Gill Sans", sans-serif;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.star {
+    color: green;
+}
+
+
+
+.feedram {
+    border: 3px solid #010045;
+    margin: 10px;
+}
+
+
+.cont {
+    font-family: Georgia, serif;
+}
+
+.map {
+    position: relative;
+    margin: 20px;
+}
+
+
+img:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
+
+
+
+
+h1 {
+    animation-duration: 2s;
+    animation-name: anim;
+}
+
+@keyframes anim {
+    from {
+        margin-left: 100%;
+        width: 100%;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+h3:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
+
+
+.lasttxt {
+    color: #1873CC;
+    margin: 50px;
+    font-size: 25px;
+    position: relative;
+    font-weight: bold;
+}
