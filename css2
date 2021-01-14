@@ -126,7 +126,9 @@ h2 {
     background: rgba(0, 0, 0, 0.7);
 }
 
-
+.blurblock2 {
+    width: 100%;
+}
 
 .hh3 {
     position: relative;
