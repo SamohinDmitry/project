@@ -57,6 +57,10 @@ h2 {
     font-family: monospace;
 }
 
+.cont {
+    font-family: Georgia, serif;
+}
+
 .desc {
     font-family: Georgia, serif;
     font-size: 25px;
