@@ -120,3 +120,13 @@ img:hover {
     right: 10px;
     bottom: 10px;
 }
+
+
+.shopname {
+    position: relative;
+    font-size: 70px;
+    color: white;
+    text-shadow: 3px 3px #363633, 4px 4px #363633, 5px 5px #363633;
+    font-family: "Gill Sans", sans-serif;
+    text-align: center;
+}
