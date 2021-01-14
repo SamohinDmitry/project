@@ -1,6 +1,16 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.Mvc;
+using Market.Models;
+
+namespace Market.Controllers
+{
+
 public class HomeController : Controller
     {
-        Context watchContext = new Context();
+        WatchContext watchContext = new WatchContext();
         public ActionResult Index()
         {
             IEnumerable<Watch> watches = watchContext.Watches;     //извлекаем данные из заполненной таблицы Watches
@@ -8,18 +18,44 @@ public class HomeController : Controller
             ViewBag.Watches = watches;                             // мы записали коллекию watch во вьюбэк (динамиеский объект) и будем передавать в представление
             return View();                                        // генерируем представление
         }
+        
+        
+        
+        [HttpGet]
 
-        public ActionResult order(int id)                         //передаем в order айди товара
+        public ActionResult Buy(int id)                         //передаем в order айди товара
         {
             ViewBag.Id = id;
 
             return View();
         }
         
-        public ActionResult order(Purchase purchase)           //метод добавляет в бд данные, переданные в форму представления order     
+        [HttpGet]
+        
+        public ActionResult MyView(Purchase purchase)           //метод добавляет в бд данные, переданные в форму представления order     
         {
             purchase.DateTime = GetTodayDate();
 
-            Context.Purchases.Add(purchase);
+            watchContext.Purchases.Add(purchase);
+
+            watchContext.SaveChanges();
+
             return View();
         }
+        
+         public DateTime GetTodayDate()
+        {
+            return DateTime.Now;
+        }
+
+        public ActionResult MainPage()
+        {
+            return View();
+        }
+
+        public ActionResult LastPage()
+        {
+            return View();
+        }
+    }
+}
